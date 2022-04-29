@@ -1,0 +1,106 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding:0px;
+}
+.card{
+height: 510px;
+width: 620px;
+border: 1px solid ;
+margin:0 auto;
+
+
+}
+.card .img{
+    
+    position: relative;
+    
+}
+.card .img .next {
+    position:absolute;
+    margin-top: 170px;
+    top:0;
+    right: 0;
+    height: 50px;
+    width: 35px;
+    font-size: 50px;
+    
+    color: aliceblue;
+    
+}
+.card .img .next i{
+    box-shadow: 1px 1px black;
+}
+.card .img .back{
+    position:absolute;
+    margin-top: 183px;
+    top:0;
+    left: 0;
+    height: 50px;
+    width: 35px;
+    font-size: 50px;
+    color: aliceblue;
+    box-shadow: 1px 1px black;
+    padding-left: 6px;
+}
+.card img{
+    height: 413px;
+    width: 620px;
+}
+.card .img .date{
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    font-size: 18px;
+    background-color: #1894A0 ;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: -25px;
+    
+
+}
+
+.card .img .date .day{
+    color: white;
+    display: inline-block;
+    padding-top: 14px;
+    position: absolute;
+    left:0;
+    top:0;
+    margin-left: 15px;
+    
+
+}
+.card .img .date .hour{
+    color: white;
+    padding-top: 14px;
+
+}
+.card .img .date .count{
+    color: white;
+    position: absolute;
+    padding-top: 14px;
+    right:0;
+    top:0;
+    margin-right: 15px;
+    
+}
+.card .text{
+
+     height: 96px;
+     width: 620px;
+     background-color: #475773;
+     margin-top: -4px;
+     font-size: 25px;
+     
+     
+     
+}
+.card .text p{
+    padding-top:30px;
+    color: white;
+    padding-left: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
